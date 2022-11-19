@@ -1,6 +1,4 @@
 <script setup>
-	import { ref } from 'vue'
-	
 	defineProps({
 		menuState: Boolean,
 		menuHandle: Function
