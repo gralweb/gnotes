@@ -6,8 +6,8 @@
 </script>
 
 <template>
-	<router-link :to="url">
-		<article class="gn_card">
+	<router-link :to="url" class="gn_card">
+		<article class="gn_card_content">
 			<p v-if="type === 'icon'" class="gn_card_content_icon">
 				<slot></slot>
 			</p>

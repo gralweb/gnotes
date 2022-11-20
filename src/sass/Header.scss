@@ -13,6 +13,16 @@
 	border-bottom-right-radius: 40px;
 	box-shadow: 5px 5px 60px #d9d9d9,
 				-20px -20px 60px #ffffff;
+
+	@media screen and (max-width: $width-phone-2) {
+		max-height: 65px;
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+	}
+
+	@media screen and (max-width: $width-phone-4) {
+		max-height: 60px;
+	}
 }
 
 .gn_brand {
@@ -20,12 +30,11 @@
 	width: 50%;
 	left: 0;
 	right: 0;
-	bottom: -40px;
 	margin: auto;
+	bottom: -40px;
 	display: flex;
 	padding: 40px;
 	max-height: 80px;
-	min-height: 60px;
 	transition: all 400ms ease;
 
 	align-items: center;
@@ -43,6 +52,28 @@
 		display: block;
 		width: 100%;
 		margin-top: -10px;
+	}
+
+	@media screen and (max-width: $width-phone-2) {
+		padding: 0;
+		bottom: -35px;
+		border-radius: 30px;
+
+		img {
+			padding: 15px;
+			max-width: 80%;
+			margin: auto;
+			margin-top: -8px;
+		}
+	}
+
+	@media screen and (max-width: $width-phone-4) {
+		border-radius: 25px;
+		bottom: -30px;
+
+		img {
+			max-width: 95%;
+		}
 	}
 }
 
@@ -66,6 +97,11 @@
 		justify-content: center;
 		transition: all 400ms ease;
 
+		@media screen and (max-width: $width-phone-2) {
+			width: 45px;
+			height: 45px;
+		}
+
 		span {
 			display: block;
 			width: 60%;
@@ -88,6 +124,9 @@
 		display: flex;
 		gap: 3px;
 		flex-direction: column;
+		@media screen and (max-width: $width-phone-2) {
+			margin-right: -8px;
+		}
 	}
 
 	.gn_navigation {
@@ -128,8 +167,8 @@
 
 			span {
 				position: absolute;
-				top: 0;
 				bottom: 0;
+				top: 0;
 				left: 0;
 				right: 0;
 				margin: auto;
