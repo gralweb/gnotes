@@ -1,12 +1,9 @@
-<script setup></script>
-
 <template>
 	<footer class="gn_footer">
-		<a href="https://gralweb.web.app" target="_blank">
-			<h1>By &#x2764; Gralweb</h1>
-		</a>
+		<section class="gn_footer_content">
+			<a href="https://gralweb.web.app" target="_blank">
+				<h1>By <span>&#x2764; Gralweb</span></h1>
+			</a>
+		</section>
 	</footer>
 </template>
-
-<style lang="scss" scoped>
-</style>

@@ -6,7 +6,6 @@
 
 body {
     min-width: 320px;
-    overflow: hidden;
     min-height: 100vh;
     // place-items: center;
 }
@@ -14,4 +13,34 @@ body {
 #app {
     max-width: 1280px;
     margin: 0 auto;
+    overflow: hidden;
+}
+
+.gn_main_route_view {
+    min-height: 90vh;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 2px solid red;
+}
+
+.gn_main {
+    display: grid;
+    height: 100%;
+    gap: 20px;
+    grid-auto-flow: dense;
+    // grid-template-rows: repeat(auto-fit, minmax(150px, 200px));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    margin: auto;
+    border: 2px solid red;
+
+    .gn_card {
+        border-radius: 20px;
+        overflow: hidden;
+        display: flex;
+        height: 200px;
+        place-items: center;
+        place-content: center;
+        border: 3px solid $color-dark;
+    }
 }

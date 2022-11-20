@@ -21,12 +21,6 @@
 				<router-link to="/note/id-or-name-note">Note View</router-link>
 			</li>
 			<li>
-				<router-link to="/add">Add Note View</router-link>
-			</li>
-			<li>
-				<router-link to="/tag/tag-name-or-id">Tag Notes View</router-link>
-			</li>
-			<li>
 				<router-link to="/edit/id-or-name-note">Edit Note View</router-link>
 			</li>
 		</ul>
