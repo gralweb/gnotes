@@ -1,9 +1,12 @@
-<script setup></script>
+<script setup>
+	defineProps({
+		tag: String,
+		note: String
+	})
+</script>
 
 <template>
-	<h1>GNOTES - View Note</h1>
+	<section class="gn_title_main">
+		<!-- <h1>Tags > {{ tag }} > {{ note }}</h1> -->
+	</section>
 </template>
-
-<style scoped lang="scss">
-	
-</style>

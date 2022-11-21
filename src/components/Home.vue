@@ -8,7 +8,10 @@
 </script>
 
 <template>
-	<h1>GNOTES - Home</h1>
+	<section class="gn_title_main">
+		<h1>Tags</h1>
+	</section>
+	
 	<section class="gn_main">
 		<CardComponent url="/add" type="icon">
     		<i class="las la-plus"></i>

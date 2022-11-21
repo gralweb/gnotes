@@ -20,7 +20,19 @@ body {
     min-height: 90vh;
     margin-top: 40px;
     margin-bottom: 30px;
-    border: 2px solid red;
+}
+
+.gn_title_main {
+    display: block;
+    padding: 5px 10px;
+
+    h1 {
+        color: $color-hover;
+        font: {
+            size: 1.7rem;
+            family: 'texturina-bold'
+        }
+    }
 }
 
 .gn_main {
@@ -31,5 +43,4 @@ body {
     // grid-template-rows: repeat(auto-fit, minmax(150px, 200px));
 
     margin: auto;
-    border: 2px solid red;
 }

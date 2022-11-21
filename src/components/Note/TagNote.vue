@@ -6,9 +6,9 @@
 </script>
 
 <template>
-	<h1>GNOTES - Tag Notes</h1>
-
-	<h1>{{ tag }}</h1>
+	<section class="gn_title_main">
+		<h1>Tags > {{ tag }}</h1>
+	</section>
 </template>
 
 <style scoped lang="scss"></style>
