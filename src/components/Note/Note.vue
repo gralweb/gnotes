@@ -1,12 +1,12 @@
 <script setup>
-	defineProps({
-		tag: String,
-		note: String
-	})
+	// defineProps({
+	// 	tag: String,
+	// 	id: String
+	// })
 </script>
 
 <template>
 	<section class="gn_title_main">
-		<!-- <h1>Tags > {{ tag }} > {{ note }}</h1> -->
+		<!-- <h1>Tags > {{ tag }} > {{ id }}</h1> -->
 	</section>
 </template>
