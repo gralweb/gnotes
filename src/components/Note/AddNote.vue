@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+	import FormNoteVue from './FormNote.vue';
+</script>
 
 <template>
 	<h1>GNOTES - Add Note Form</h1>
-</template>
 
-<style scoped lang="scss"></style>
+	<FormNoteVue />
+</template>
